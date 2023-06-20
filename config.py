@@ -46,7 +46,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 # Pesan Awalan /start
 START_MSG = os.environ.get(
     "START_MESSAGE",
-    "<b> {first}</b>\n\n<b>s       ss \n\ns         s <a href='https://t.me/areabacol'> </a>\ns </b>",
+    "<b>Hello {first}</b>\n\n<b>Saya dapat menyimpan file pribadi di Channel Tertentu dan pengguna lain dapat mengaksesnya dari link khusus.</b>",
 )
 try:
     ADMINS = [int(x) for x in (os.environ.get("ADMINS", "1494610306 6073117324 1846991467").split())]
